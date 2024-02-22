@@ -14,7 +14,7 @@ main {
 }
 
 .bg-body-tertiary {
-    background-color: black !important; 
+    background-color: rgba(0, 0, 0, 0) !important; 
 }
 
 .navbar {
