@@ -1,0 +1,194 @@
+
+body {
+    background-image: url(./img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    border-bottom: 1px solid #292929;
+}
+
+main {
+    position: relative;
+}
+
+.bg-body-tertiary {
+    background-color: black !important; 
+}
+
+.navbar {
+    padding: 20px 0 20px 0;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 23px;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: rgb(var(--bs-gray-200)) !important;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    margin-right: 330px;
+    font-size: 28px;
+}
+
+.navbar-brand:hover {
+    color: aliceblue;
+}
+
+.carousel2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #292929;
+}
+
+.w-100 {
+    width: 700px !important;
+    height: 380px;
+    margin-left: 280px;
+}
+
+.carousel-control-prev {
+    margin-left: 150px;
+}
+
+.carousel-inner {
+    cursor: pointer;
+}
+
+.carousel-control-next {
+    margin-right: 180px;
+}
+
+.product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col {
+    width: 400px;
+    height: 150px;
+}
+
+.col:nth-child(1) {
+    margin-bottom: 300px;
+}
+
+.card-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn1 {
+    margin-top: 106px !important;
+}
+
+.btn2 {
+    margin-top: 50px;
+}
+
+.btn4 {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 5px 148px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    background-color: #292929;
+    color: azure;
+}
+
+.alert-success {
+    position: fixed;
+    background-color: rgba(100, 2, 2, 0.5);
+    color: white;
+    border-color: rgba(146, 0, 0, 0.685);
+    text-align: center;
+    width: 450px;
+    height: 60px;
+    right: 20px;
+    bottom: 0px;
+}
+
+.btn-close {
+    color: white;
+    fill: white;
+}
+
+.alert-dissmisible .btn-close {
+    color: white;
+    fill: white;
+}
+
+.advantages {
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+
+.advantage-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 70px;
+}
+
+.advantage-head {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.advantage-item {
+    border: 1px solid rgba(82, 82, 82, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(49, 49, 49, 0.685);
+    height: 270px;
+    width: 400px;
+}
+
+.advantage-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.advantage-descr {
+    color: rgb(156, 156, 156);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-img {
+    width: 100px;
+    height: 100px;
+}
+
+.tg-link {
+    width: 50px;
+    height: 50px;
+}
